@@ -1,5 +1,4 @@
 Zerto for Kubernetes (Z4K) Release Notes
-===================================
 
 Zerto helps customers accelerate IT transformation through a single, scalable platform for cloud data management and protection. Built for enterprise scale, Zerto’s simple, software-only platform uses continuous data protection to converge disaster recovery, backup, and data mobility and eliminate the risks and complexity of modernization and cloud adoption. Zerto enables an always-on customer experience by simplifying the protection, recovery, and mobility of applications and data across private, public, and hybrid clouds. Zerto is trusted by over 9,000 customers globally and is powering offerings for Microsoft Azure, IBM Cloud, AWS, Google Cloud, Oracle Cloud, and more than 350 managed service providers. 
 
@@ -18,6 +17,7 @@ Zerto for Kubernetes integrates continuous backup and disaster recovery into the
 * **Complete visibility and monitoring**: Zerto delivers a centralized view of your entire Kubernetes environment to monitor performance and protection. 
 
 * **Simple, native workflows**: Simple, built-in workflows for any recovery and orchestration scenario designed to streamline operations.
+
 Check out the :doc:`usage` section for further information, including
 how to :ref:`Deploying Zerto for Kubernetes` the project.
 
@@ -29,6 +29,7 @@ Contents
 --------
 
 .. toctree::
-
-   Supported Kubernetes Platforms
+  api
+  suppoted_platforms
+  
    
