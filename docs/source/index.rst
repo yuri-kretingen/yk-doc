@@ -30,6 +30,7 @@ Contents
 
 .. toctree::
   api
-  suppoted_platforms
-  
+  supportedplatforms
+  usage
+
    
