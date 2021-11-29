@@ -30,5 +30,5 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   Supported Kubernetes Platforms
+   
