@@ -8,27 +8,35 @@ Installation
 
 To use Lumache, first install it using pip:
 
+Prepare Helm
+------------
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ helm repo add zerto-z4k https://zapps-helm.zerto.com/z4k/stable
 
-Creating recipes
-----------------
+   (.venv) $ helm repo update
+.. note:
+   Helm name (in the example above zerto-z4k) should be a logical name entered by the user.
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Obtain the Image Pull Key Secret 
+--------------------------------
 
-.. autofunction:: lumache.get_random_ingredients
+The image pull key secret should be used in the deployment Helm chart to enable downloading Zerto’s components images. 
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. To retrieve a list of random ingredients,
+.. you can use the ``lumache.get_random_ingredients()`` function:
 
-.. autoexception:: lumache.InvalidKindError
+.. .. autofunction:: lumache.get_random_ingredients
 
-For example:
+.. The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
+.. or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
+.. will raise an exception.
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+.. .. autoexception:: lumache.InvalidKindError
+
+.. For example:
+
+.. >>> import lumache
+.. >>> lumache.get_random_ingredients()
+.. ['shells', 'gorgonzola', 'parsley']
 
