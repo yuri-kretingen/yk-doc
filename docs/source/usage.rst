@@ -23,6 +23,7 @@ Obtain the Image Pull Key Secret
 
 The image pull key secret should be used in the deployment Helm chart to enable downloading Zerto’s components images. 
 
+
 .. To retrieve a list of random ingredients,
 .. you can use the ``lumache.get_random_ingredients()`` function:
 

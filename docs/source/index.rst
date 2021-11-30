@@ -31,6 +31,8 @@ Contents
 .. toctree::
   api
   supportedplatforms
+  deployingz4k
   usage
+  changes
 
    
