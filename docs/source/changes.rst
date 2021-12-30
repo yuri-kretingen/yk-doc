@@ -2,7 +2,6 @@ Changes
 =======
 Versions
 --------
-
-.. toctree::
-  version1.x.x
-  version2.x.x
+.. toctree::version3.x.x
+version2.x.x
+version1.x.x
