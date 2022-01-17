@@ -1,4 +1,4 @@
 API
 ===
 
-.. openapi:: -static/open-api.yml
+.. openapi:: _static/open-api.yml
