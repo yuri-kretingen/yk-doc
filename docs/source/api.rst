@@ -1,7 +1,4 @@
 API
 ===
 
-.. autosummary::
-   :toctree: generated
-
-   z4k
+.. openapi:: specs/open-api.yml
